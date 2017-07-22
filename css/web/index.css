@@ -1,0 +1,781 @@
+@charset "UTF-8";
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+	text-decoration: none
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0
+}
+
+:focus,
+button,
+input,
+textarea {
+	outline: 0
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0
+}
+
+caption,
+td,
+th {
+	text-align: left;
+	font-weight: 400
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: ""
+}
+
+blockquote,
+q {
+	quotes: "" ""
+}
+
+body,
+html {
+	font-size: 14px;
+	background: #fff
+}
+
+body {
+	line-height: 1;
+	color: #333;
+	font-family: "Microsoft YaHei", "微软雅黑", Lato, sans-serif
+}
+
+a {
+	cursor: pointer
+}
+
+.commonHeader .headerNav li a.active:hover,
+.paner .header .nav>span>a.active:hover {
+	cursor: text
+}
+
+.mb10 {
+	margin-bottom: 10px
+}
+
+.mr20 {
+	margin-right: 20px
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.containerBig {
+	width: 1200px;
+	margin: 0 auto
+}
+
+.containerNomal {
+	width: 1000px;
+	margin: 0 auto
+}
+
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.hide {
+	display: none
+}
+
+.align-c {
+	text-align: center
+}
+
+.swiper-pagination-bullet {
+	background: #fff;
+	opacity: .4
+}
+
+.swiper-pagination-bullet-active {
+	background: #fff;
+	opacity: 1
+}
+
+.commonHeader {
+	background-color: #303030;
+	height: 50px;
+	line-height: 50px
+}
+
+.commonHeader .containerNomal {
+	overflow: hidden;
+	padding: 0 20px
+}
+
+.commonHeader .headerLog {
+	padding-right: 50px
+}
+
+.commonHeader .headerLog img {
+	height: 30px;
+	vertical-align: middle
+}
+
+.commonHeader .headerNav li {
+	float: left
+}
+
+.commonHeader .headerNav li a {
+	display: inline-block;
+	height: 50px;
+	padding: 0 20px;
+	color: #999
+}
+
+.commonHeader .headerNav li a.active,
+.commonHeader .headerNav li a:hover {
+	color: #F5F5F5
+}
+
+.commonHeader .loginMessage {
+	float: right;
+	color: #999;
+	position: relative
+}
+
+.commonHeader .loginMessage li {
+	float: left;
+	margin-left: 10px
+}
+
+.commonHeader .loginMessage li img {
+	border-radius: 100%;
+	height: 28px;
+	width: 28px;
+	vertical-align: middle
+}
+
+.commonHeader .loginMessage li i {
+	display: inline-block;
+	font-size: 12px
+}
+
+.commonHeader .loginMessage li a {
+	display: inline-block;
+	height: 50px;
+	color: #999
+}
+
+.commonHeader .loginMessage li a:hover {
+	color: #F5F5F5
+}
+
+.commonHeader .loginMessage li a.active {
+	cursor: text;
+	color: #F5F5F5
+}
+
+.commonFooter {
+	background-color: #F3F3F3;
+	color: #333;
+	padding: 20px
+}
+
+.commonFooter p {
+	padding: 10px
+}
+
+.rotate180 {
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg)
+}
+
+.rotate-90 {
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg)
+}
+
+.loadMore {
+	text-align: center;
+	padding: 30px 0
+}
+
+.loadMore a,
+.loadMore span {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-right: 5px
+}
+
+.loadMore a {
+	border: 1px solid #aaa;
+	color: #333
+}
+
+.loadMore a:hover {
+	background-color: #eee
+}
+
+.loadMore span {
+	opacity: .3
+}
+
+.loadMore .current {
+	border: 1px solid #aaa;
+	background: #aaa;
+	color: #fff;
+	opacity: 1
+}
+
+.loadMore .current.next,
+.loadMore .current.prev {
+	background: #fff;
+	color: #333;
+	opacity: .3
+}
+
+@media screen and (max-width:1000px) {
+	.commonTools {
+		display: none
+	}
+
+}
+
+.commonTools {
+	position: fixed;
+	bottom: 130px;
+	right: 10px;
+	text-align: center;
+	z-index: 9999
+}
+
+.commonTools a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 8px
+}
+
+.commonTools a:hover {
+	opacity: .7
+}
+
+.commonTools a.bgRed {
+	background-color: #FF684B
+}
+
+.commonTools a.bgGreen {
+	background-color: #09BA07
+}
+
+.commonTools a.bgBlue {
+	background-color: #49BAF2
+}
+
+.commonTools a.bgBlack {
+	background-color: #5E5F61
+}
+
+.commonTools a p:last-child {
+	padding-top: 5px
+}
+
+.commonTools a p:first-child {
+	padding-top: 0
+}
+
+.commonTools a i {
+	font-size: 28px
+}
+
+.commonTools a:last-child {
+	padding: 18px 0
+}
+
+.commonTools .qrcodePic {
+	position: absolute;
+	top: 8px;
+	right: 68px
+}
+
+.commonTools .qrcodePic img {
+	height: 211px
+}
+
+.paner .company>.h1Title,
+.paner .partner>.h1Title,
+.paner .service>.h1Title {
+	display: block;
+	font-size: 24px;
+	font-weight: 400;
+	color: #25282D;
+	text-align: center
+}
+
+.paner .company>.h2Title,
+.paner .partner>.h2Title,
+.paner .service>.h2Title {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #72757B;
+	padding-top: 15px;
+	text-align: center
+}
+
+@media screen and (min-width:1200px) {
+	.header {
+		left: 50%;
+		margin-left: -600px
+	}
+
+}
+
+.paner {
+	min-width: 1200px
+}
+
+.paner.topBg {
+	background: url(../../img/img_index_headerBg.png) top center no-repeat;
+	background-size: cover
+}
+
+.paner.bgInvest {
+	background: url(../../img/img_index_investBg.png) center center no-repeat
+}
+
+.paner .header {
+	border-bottom: 1px solid #E9C205;
+	position: absolute;
+	top: 130px
+}
+
+.paner .header .nav {
+	position: relative;
+	color: #130000
+}
+
+.paner .header .nav>.logo {
+	width: 321px;
+	height: 135px;
+	background: url(../../img/img_index_headerNav.png) top center no-repeat;
+	position: absolute;
+	top: -130px;
+	left: 50%;
+	margin-left: -160px;
+	z-index: 99;
+	text-align: center
+}
+
+.paner .header .nav>.logo .h1Title {
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 25px;
+	padding-bottom: 10px
+}
+
+.paner .header .nav>.logo .h2Title {
+	font-size: 16px;
+	font-weight: 400
+}
+
+.paner .header .nav>span {
+	font-size: 16px;
+	display: inline-block;
+	padding: 25px 15px
+}
+
+.paner .header .nav>span>a {
+	color: #130000;
+	display: inline-block
+}
+
+.paner .header .nav>span>a:active,
+.paner .header .nav>span>a:hover {
+	font-weight: 600;
+	color: #130000
+}
+
+.paner .header .nav>span>a.active {
+	font-weight: 600;
+	display: inline-block;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #25282D
+}
+
+.paner .header .nav>span.createActivity {
+	float: right;
+	margin-right: 30px;
+	position: relative;
+	padding-left: 0
+}
+
+.paner .header .nav>span.createActivity>a>i {
+	display: inline-block;
+	font-size: 12px
+}
+
+.paner .header .nav>span.createActivity .selectPanel {
+	position: absolute;
+	top: 55px;
+	z-index: 999
+}
+
+.paner .header .nav>span.createActivity .selectPanel>i {
+	position: absolute;
+	display: inline-block;
+	top: -10px;
+	left: 25px;
+	color: #303030;
+	font-size: 12px
+}
+
+.paner .header .nav>span.createActivity .selectPanel a {
+	display: inline-block;
+	padding: 10px 5px;
+	background-color: #303030;
+	color: #999;
+	font-size: 14px
+}
+
+.paner .header .nav>span.createActivity .selectPanel a i {
+	color: #FFCE00;
+	font-size: 14px
+}
+
+.paner .header .nav>span.createActivity .selectPanel a:hover {
+	color: #FFCE00;
+	background-color: #000
+}
+
+.paner .header .nav>.loginMessage {
+	float: right;
+	padding-top: 25px;
+	position: relative
+}
+
+.paner .header .nav>.loginMessage li {
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	overflow: hidden
+}
+
+.paner .header .nav>.loginMessage li a {
+	color: #130000;
+	display: inline-block
+}
+
+.paner .header .nav>.loginMessage li a:active,
+.paner .header .nav>.loginMessage li a:hover {
+	font-weight: 600;
+	color: #130000
+}
+
+.paner .header .nav>.loginMessage li img {
+	border-radius: 100%;
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	left: -28px;
+	top: 18px
+}
+
+.paner .header .nav>.loginMessage li i {
+	display: inline-block;
+	font-size: 12px
+}
+
+.paner .header .nav>.loginMessage li .userName {
+	display: inline-block;
+	max-width: 80px;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.paner .header .nav>.loginMessage .selectPanel {
+	position: absolute;
+	top: 55px;
+	z-index: 999
+}
+
+.paner .header .nav>.loginMessage .selectPanel>i {
+	position: absolute;
+	display: inline-block;
+	top: -10px;
+	left: 25px;
+	color: #303030;
+	font-size: 12px
+}
+
+.paner .header .nav>.loginMessage .selectPanel a {
+	display: inline-block;
+	padding: 10px 5px;
+	background-color: #303030;
+	color: #999;
+	font-size: 14px
+}
+
+.paner .header .nav>.loginMessage .selectPanel a:hover {
+	color: #FFCE00;
+	background-color: #000
+}
+
+.paner .content {
+	padding-top: 260px;
+	overflow: hidden
+}
+
+.paner .content .left {
+	width: 50%;
+	float: left
+}
+
+.paner .content .left .leftPanel {
+	width: 377px;
+	float: right;
+	padding-right: 50px;
+	padding-top: 45px
+}
+
+.paner .content .left .leftPanel .discripton>p {
+	font-size: 24px;
+	text-align: justify;
+	line-height: 1.5
+}
+
+.paner .content .left .leftPanel .discripton>.qrcode {
+	padding-top: 20px
+}
+
+.paner .content .left .leftPanel .discripton>.qrcode>.fl,
+.paner .content .left .leftPanel .discripton>.qrcode>.fr {
+	width: 150px
+}
+
+.paner .content .left .leftPanel .discripton>.qrcode p {
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0
+}
+
+.paner .content .left .leftPanel .discripton>.qrcode a {
+	display: block;
+	background-color: #000;
+	color: #fff;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px
+}
+
+.paner .content .right {
+	width: 50%;
+	float: left
+}
+
+.paner .service {
+	padding: 50px 0;
+	overflow: hidden
+}
+
+.paner .service .pics li {
+	float: left;
+	margin: 50px 10px;
+	position: relative
+}
+
+.paner .service .pics li img {
+	border-radius: 5px
+}
+
+.paner .service .pics li .up {
+	padding-left: 10px;
+	border-left: 4px solid #FFCE00;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #fff
+}
+
+.paner .service .pics li .up .h1Title {
+	font-size: 24px;
+	font-weight: 500
+}
+
+.paner .service .pics li .up .h2Title {
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 10px
+}
+
+.paner .inveset {
+	clear: both;
+	color: #fff;
+	line-height: 1.5;
+	padding: 60px 0;
+	margin-bottom: 50px
+}
+
+.paner .inveset .title {
+	margin: 0 auto;
+	width: 415px;
+	font-size: 24px;
+	text-align: center
+}
+
+.paner .inveset .description {
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 575px;
+	font-size: 14px;
+	text-align: justify
+}
+
+.paner .inveset .num {
+	overflow: hidden
+}
+
+.paner .inveset .num .left {
+	width: 50%;
+	float: left
+}
+
+.paner .inveset .num .left .leftContent {
+	width: 150px;
+	float: right;
+	margin-right: 50px;
+	text-align: center
+}
+
+.paner .inveset .num .right {
+	width: 150px;
+	float: left;
+	margin-right: 50px;
+	text-align: center
+}
+
+.paner .inveset .num .count {
+	font-size: 48px
+}
+
+.paner .inveset .num .add {
+	font-size: 36px
+}
+
+.paner .inveset .num .name {
+	font-size: 16px
+}
+
+.paner .company .pic {
+	padding-bottom: 50px
+}
+
+.paner .company img {
+	width: 100%
+}
+
+.paner .partner .pic {
+	background-color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 30px
+}
+
+.paner .partner img {
+	padding: 30px;
+	vertical-align: middle
+}
+
+.paner.footer {
+	text-align: center;
+	padding: 50px 0;
+	border-top: 1px solid #E0E3E7
+}

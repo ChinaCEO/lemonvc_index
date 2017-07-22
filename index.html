@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>柠檬VC-一站式创新创业服务平台</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<link href="img/bitbug_favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="css/web/index.css">
+</head>
+<body>
+<!--头部有背景和导航栏部分-->
+<div class="paner topBg">
+	<div class="header containerBig">
+		<div class="nav containerNomal">
+			<span>
+				<a class="active" href="javascript:void(0);" target="_self">首页</a>
+			</span>
+
+			<span>
+				<a href="#" target="_self">创业项目</a>
+			</span>
+
+			<span>
+				<a href="#" target="_self">高创基地</a>
+			</span>
+
+			<span>
+				<a href="#" target="_blank">柠檬活动</a>
+			</span>
+
+			<span>
+				<a href="#" target="_blank">创领智库</a>
+			</span>
+
+			<span>
+				<a href="#" target="_self">关于我们</a>
+			</span>
+
+			<span>
+				<a href="#" target="_self">创业服务</a>
+			</span>
+
+			<span>
+				<a href="#" target="_self">投资信息</a>
+			</span>
+
+			<div class="logo">
+				<div class="h1Title">柠檬VC</div>
+				<div class="h2Title">—&nbsp;创业营养多—&nbsp;</div>
+			</div>
+			<!--未登陆显示-->
+    		<ul class="loginMessage unLogin hide">
+    			<li>
+    				<a href="#" target="_self">登录</a>
+    			</li>
+    		</ul>
+    		<!--登录显示-->
+    		<ul class="loginMessage logining hide">
+    			<li>
+    				<img  id="userPic" src=""/>
+    			</li>
+    			<li class="userMessage">
+    				<a class="selectBtn" href="javascript:void(0);">
+    					<span id="userName" class="userName"></span>
+    					<i class="icon iconfont"></i>
+    				</a>
+    				<ul class="selectPanel hide">
+    					<i class="icon iconfont"></i>
+						<li>
+							<a href="#" target="_self">
+								退出
+							</a>
+						</li>
+    				</ul>
+    			</li>
+    		</ul>
+
+    		<span class="createActivity">
+				<a class="selectBtn" href="javascript:void(0);" target="_self">
+					我要发布&nbsp;&nbsp;<i class="icon iconfont"></i>
+				</a>
+				<ul class="selectPanel hide">
+					<i class="icon iconfont"></i>
+					<li>
+						<a href="javascript:void(0);" target="_self" onclick="utils.linkUrl('addProject.html',true);">
+							<i class="icon iconfont"></i>
+							发布项目
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" target="_self">
+							<i class="icon iconfont"></i>
+							发布服务
+						</a>
+					</li>
+				</ul>
+			</span>
+		</div>
+	</div>
+	<div class="content">
+		<div class="left">
+			<div class="leftPanel">
+				<div class="discripton">
+					<p>
+						国内首家专注于为创业企业获取“精准客户”及“创业帮扶资金”的创业服务平台。
+					</p>
+					<div class="qrcode">
+						<div class="fl">
+							<img src="img/img_weixing.png"/>
+							<p>—&nbsp;关注微信—&nbsp;</p>
+						</div>
+						<div class="fr">
+							<img src="img/img_app.png"/>
+							<p>—&nbsp;下载APP—&nbsp;</p>
+							<a href="#">
+								<i class="icon iconfont"></i>
+								<span>iPhone下载</span>
+							</a>
+							<a href="#">
+								<i class="icon iconfont"></i>
+								<span>Andriod下载</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<img src="img/img_phone.png"/>
+		</div>
+	</div>
+</div>
+
+<!--我们的服务-->
+<div class="paner">
+	<div class="service containerNomal">
+		<div class="h1Title">我们的服务</div>
+		<div class="h2Title">为创业企业提供“投融资、品牌传播、创业智囊、财税优化”四大成长要素的定制服务</div>
+		<div class="pics">
+			<ul>
+				<li>
+					<img src="img/img_index_service01.png">
+					<div class="up">
+						<div class="h1Title">客户对接</div>
+						<div class="h2Title">帮助企业获取精准客户</div>
+					</div>
+				</li>
+				<li>
+					<img src="img/img_index_service02.png">
+					<div class="up">
+						<div class="h1Title">品牌传播</div>
+						<div class="h2Title">最有效的企业传播服务</div>
+					</div>
+				</li>
+				<li>
+					<img src="img/img_index_service03.png">
+					<div class="up">
+						<div class="h1Title">帮扶资金</div>
+						<div class="h2Title">创业帮扶资金申报</div>
+					</div>
+				</li>
+				<li>
+					<img src="img/img_index_service04.png">
+					<div class="up">
+						<div class="h1Title">财税优化</div>
+						<div class="h2Title">初创企业的专业财务顾问</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--投资-->
+<div class="paner bgInvest">
+	<div class="inveset">
+		<div class="title">
+			我们是您的投资人、财务官、智囊团，也是您的创业加速器
+		</div>
+		<div class="description">
+			柠檬VC成立于2014年，是国内首家专注于为创业企业获取“精准客户”及“创业帮扶资金”的创业服务平台。并通过链接“投资机构、行业领袖、媒体、创业服务商”，为创业企业提供“投融资、品牌传播、创业智囊、财税优化”四大成长要素的定制服务，加速企业成长。
+		</div>
+		<div class="num">
+			<div class="left">
+				<div class="leftContent">
+					<p>
+						<span class="count">2000</span>
+						<span class="add">+</span>
+					</p>
+					<p class="name">一起成长的创业公司</p>
+				</div>
+			</div>
+			<div class="right">
+				<p>
+					<span class="count">20</span>
+					<span class="add">+</span>
+				</p>
+				<p class="name">并肩作战的合作伙伴</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--我们已服务企业-->
+<div class="paner">
+	<div class="company containerNomal">
+		<div class="h1Title">我们已服务企业</div>
+		<div class="h2Title">他们选择了柠檬VC</div>
+		<div class="pic">
+			<img src="img/img_index_Comany.png"/>
+		</div>
+	</div>
+</div>
+
+<!--合作伙伴-->
+<div class="paner">
+	<div class="partner containerNomal">
+		<div class="h1Title">我们的合作伙伴</div>
+		<div class="h2Title">他们和我们并肩作战，为您的创业征程保驾护航</div>
+		<div class="pic">
+			<img src="img/img_partner01.png">
+		    <img src="img/img_partner02.png">
+		    <img src="img/img_partner03.png">
+		    <img src="img/img_partner04.png">
+		    <img src="img/img_partner05.png">
+		</div>
+	</div>
+</div>
+
+<div class="paner footer">
+	www.lemonvc.com&nbsp;2014-2017&nbsp;&copy;&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;.&nbsp;京ICP备15011287号-2
+</div>
+
+<!--公共漂浮底部-->
+<div class="commonTools">
+    <div class="qrcodePic" data-name="downApp" style="display: none;">
+        <img src="img/piaofu_bg.jpg"/>
+    </div>
+    <div class="qrcodePic" data-name="weixin" style="display: none;">
+        <img src="img/img_weixin.jpg"/>
+    </div>
+    <a class="bgRed" target="_blank" href="#">
+        <p>
+            <i class="icon iconfont"></i>
+        </p>
+        <p>在线客服</p>
+    </a>
+    <a class="bgGreen" href="javascript:void(0);" onmouseenter="downLoadAppPic(1,'weixin')" onmouseleave="downLoadAppPic(0,'weixin')">
+        <p>
+            <i class="icon iconfont"></i>
+        </p>
+        <p>官方微信</p>
+    </a>
+    <a class="bgBlue" href="javascript:void(0);" onmouseenter="downLoadAppPic(1,'downApp')" onmouseleave="downLoadAppPic(0,'downApp')">
+        <p>
+            <i class="icon iconfont"></i>
+        </p>
+        <p>下载APP</p>
+    </a>
+    <a class="bgBlack" href="javascript:window.scrollTo(0,0);">
+        <p class="rotate180">
+            <i class="icon iconfont"></i>
+        </p>
+    </a>
+</div>
+</body>
+<script type="text/javascript" src="js/lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/web/common.js"></script>
+<script type="text/javascript" src="js/web/index.js"></script>
+</html>

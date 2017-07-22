@@ -1,0 +1,19 @@
+{
+  "name": "lemonvc_index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinaCEO/lemonvc_index.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChinaCEO/lemonvc_index/issues"
+  },
+  "homepage": "https://github.com/ChinaCEO/lemonvc_index#readme"
+}
